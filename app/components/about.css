@@ -1,0 +1,47 @@
+.About {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 100vh;
+  width: 100vw;
+  padding-top: var(--header-height);
+  background-color: var(--primary-color-solid);
+  color: var(--secondary-color);
+  font-family: "Lora", serif;
+  border-bottom: solid 2px var(--secondary-color);
+}
+
+.About-content {
+  padding: 2rem;
+  text-align: justify;
+}
+
+.About-title {
+  font-size: 32px;
+  font-family: "Kaushan Script", serif;
+}
+
+.About-p {
+  margin: 2rem 0;
+}
+
+.About-photo {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: 80%;
+}
+
+.About-galleryContainer {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: calc(50% - 4px) calc(50% - 4px);
+  column-gap: 8px;
+  row-gap: 8px;
+}
+
+#photo1 {
+  grid-column: 1 / 3;
+}

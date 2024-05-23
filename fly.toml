@@ -2,7 +2,6 @@ app = "donna-mcginty-e394"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = [ ]
-swap_size_mb = 512
 
 [experimental]
 allowed_public_ports = [ ]
@@ -10,6 +9,9 @@ auto_rollback = true
 cmd = "start.sh"
 entrypoint = "sh"
 
+[env]
+  PORT = 8080
+  
 [mounts]
 source = "data"
 destination = "/data"

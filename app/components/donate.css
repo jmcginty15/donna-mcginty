@@ -1,0 +1,59 @@
+.Donate {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: calc(100vw - 2 * var(--header-height));
+  margin: var(--header-height);
+  background-color: var(--primary-color-transparent);
+  color: var(--secondary-color);
+  font-family: "Lora", serif;
+}
+
+.Donate-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: justify;
+}
+
+.Donate-content-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: justify;
+}
+
+.Donate-content-main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
+  column-gap: 1rem;
+  row-gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Donate-title {
+  font-size: 48px;
+  font-family: "Kaushan Script", serif;
+}
+
+.Donate-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Donate-link {
+  color: white;
+}
+
+.Donate-link:hover {
+  transition: 0.5s;
+  color: var(--secondary-color);
+}
+
+.Donate-text {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}

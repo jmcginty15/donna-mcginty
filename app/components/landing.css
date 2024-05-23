@@ -1,0 +1,101 @@
+.Landing {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid 2px var(--secondary-color);
+}
+
+.Landing-overlay {
+  width: 100%;
+  height: 100%;
+  padding-top: var(--header-height);
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-image: linear-gradient(
+    to left,
+    var(--primary-color-full-transparent) 40%,
+    var(--primary-color-solid)
+  );
+}
+
+.Landing-photo {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.Landing-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: var(--primary-color-solid);
+}
+
+.Landing-content-title-1,
+.Landing-content-title-2 {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.25rem;
+  flex: none;
+}
+
+.Landing-content-title-1 {
+  font-family: "Kaushan Script", serif;
+  font-size: 108px;
+}
+
+.Landing-content-title-2 {
+  font-family: "Lora", serif;
+  font-size: 36px;
+}
+
+.Landing-content-title,
+.Landing-content-subtitle {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Kaushan Script", serif;
+  letter-spacing: 0.25rem;
+}
+
+.Landing-content-title {
+  font-size: 72px;
+  margin: 3rem 0 1rem 0;
+}
+
+.Landing-content-subtitle {
+  font-size: 36px;
+  /* margin-top: 1rem; */
+  flex: none;
+}
+
+.Landing-content-photo {
+  width: 100%;
+  height: 50px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex: auto;
+  max-height: 254px;
+}
+
+.Landing-photo-container {
+  background-color: var(--secondary-color-transparent);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: fit-content;
+  flex: auto;
+}

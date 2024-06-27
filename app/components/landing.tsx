@@ -12,7 +12,7 @@ export default function Landing() {
           style={{ backgroundImage: `url(${donnaNoBg})` }}
         />
         <div className="Landing-content">
-          <h1 className="Landing-content-title-1">Donna McGinty</h1>
+          <h1 className="Landing-content-title-1">Donna J. McGinty</h1>
           <h1 className="Landing-content-title-2">
             for Kansas House of Representatives District 57
           </h1>

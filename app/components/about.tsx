@@ -17,20 +17,19 @@ export default function About() {
           hiking. */}
         </h2>
         <p className="About-p">
-          Born the middle of eleven children in my family, I learned the value
-          of hard work and became an adept problem solver. After earning my BA
-          in education, I pursued my career teaching Title I and Physical
-          Education in rural Kansas. After a successful seven years, I was
-          accepted at Washburn University School of Law where I earned my Juris
-          Doctor.
+          Born the middle of eleven children, I learned the value of hard work
+          and became an adept problem solver. After earning my BA in education,
+          I pursued my career teaching Title I and Physical Education in rural
+          Kansas. After a successful seven years, I was accepted at Washburn
+          University School of Law where I earned my Juris Doctor.
         </p>
         <p className="About-p">
           I met and married my husband Chris and together we raised two sons. I
           now also have one daughter-in-law, and recently welcomed my first
           grandchild. After our sons were of school age, I returned to the
-          classroom for twenty-three years. In the spring of 2021, I was led to
-          run for the Board of Education seat in Seaman USD 345 in Topeka, where
-          I am now in my third year of service.
+          classroom for twenty-three years. In the spring of 2021, I ran for the
+          Board of Education seat in Seaman USD 345 in Topeka, where I am now in
+          my third year of service.
         </p>
         <p className="About-p">
           In May 2024, I finished my career in the classroom after nineteen
@@ -41,6 +40,26 @@ export default function About() {
           constituents to live to their fullest potential as provided in the
           Constitution of the United States.
         </p>
+        <p className="About-p About-ul">
+          To ensure quality of life for all Kansans, I stand for:
+        </p>
+        <ul className="About-ul">
+          <li className="About-li">
+            <span className="About-li-start">L</span> imited government and less
+            taxes for Kansans
+          </li>
+          <li className="About-li">
+            <span className="About-li-start">I</span> ndividual constitutional
+            liberties upheld
+          </li>
+          <li className="About-li">
+            <span className="About-li-start">F</span> aith, family, and freedom
+          </li>
+          <li className="About-li">
+            <span className="About-li-start">E</span> xcellence in education at
+            all levels
+          </li>
+        </ul>
       </div>
       <div className="About-content About-galleryContainer">
         <img

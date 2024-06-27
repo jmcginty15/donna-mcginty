@@ -1,7 +1,7 @@
 .About {
   display: grid;
   grid-template-columns: 60% 40%;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   padding-top: var(--header-height);
   background-color: var(--primary-color-solid);
@@ -22,6 +22,16 @@
 
 .About-p {
   margin: 2rem 0;
+}
+
+.About-ul {
+  font-size: 20px;
+}
+
+.About-li-start {
+  color: white;
+  font-family: "Kaushan Script", serif;
+  font-size: 36px;
 }
 
 .About-photo {

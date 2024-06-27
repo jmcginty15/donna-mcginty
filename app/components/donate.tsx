@@ -15,7 +15,7 @@ export default function Donate() {
           </h6>
         </div>
         <p className="Donate-text">
-          Checks can be made out to &quot;Donna McGinty for Kansas District
+          Checks can be made out to &quot;Donna J. McGinty for Kansas District
           57&quot; and sent to the PO Box above.
         </p>
       </div>

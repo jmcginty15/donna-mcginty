@@ -32,7 +32,7 @@ export default function Footer() {
         </a>
       </div>
       <div className="footerContent footerContentRight">
-        <p>Paid for by Donna McGinty for Kansas District 57</p>
+        <p>Paid for by Donna J. McGinty for Kansas District 57</p>
         <p>Patricia Han, Treasurer</p>
       </div>
     </div>

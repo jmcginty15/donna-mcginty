@@ -24,16 +24,14 @@ export default function Index() {
   const menuLinks = ["About", "Contact", "Donate"];
 
   const scrollTo = (linkName: string) => {
+    const block = linkName === "About" ? "start" : "center";
     const ref =
       linkName === "About"
         ? aboutRef
         : linkName === "Contact"
           ? contactRef
           : donateRef;
-    ref.current?.scrollIntoView({
-      behavior: "smooth",
-      block: "center",
-    });
+    ref.current?.scrollIntoView({ behavior: "smooth", block });
   };
 
   return (

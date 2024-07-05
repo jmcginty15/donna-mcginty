@@ -1,9 +1,9 @@
 // import about from "../assets/about.jpeg";
 import photo1 from "~/assets/gallery/photo-1.jpeg";
 import photo2 from "~/assets/gallery/photo-2.jpeg";
-import photo3 from "~/assets/gallery/photo-6.jpg";
 import photo4 from "~/assets/gallery/photo-4.jpeg";
 import photo5 from "~/assets/gallery/photo-5.jpeg";
+import photo3 from "~/assets/gallery/photo-6.jpg";
 
 export default function About() {
   return (

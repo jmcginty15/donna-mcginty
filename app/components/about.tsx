@@ -45,18 +45,44 @@ export default function About() {
         </p>
         <ul className="About-ul">
           <li className="About-li">
-            <span className="About-li-start">L</span> imited government and less
-            taxes
+            <span className="About-li-start">L</span> imited government
+            <ul className="About-sub-ul">
+              <li className="About-sub-li">
+                Protect earnings & property of citizens
+              </li>
+              <li className="About-sub-li">Less taxes</li>
+            </ul>
           </li>
           <li className="About-li">
-            <span className="About-li-start">I</span> ndividual liberties upheld
+            <span className="About-li-start">I</span> ndividual constitutional
+            rights
+            <ul className="About-sub-ul">
+              <li className="About-sub-li">Life</li>
+              <li className="About-sub-li">Liberty</li>
+              <li className="About-sub-li">Pursuit of happiness</li>
+            </ul>
           </li>
           <li className="About-li">
             <span className="About-li-start">F</span> ree enterprise
+            <ul className="About-sub-ul">
+              <li className="About-sub-li">Pro-consumer, pro-business</li>
+              <li className="About-sub-li">
+                Employee/employer - hard work & skill rewarded
+              </li>
+              <li className="About-sub-li">Less government regulation</li>
+            </ul>
           </li>
           <li className="About-li">
-            <span className="About-li-start">E</span> xcellence in education at
-            all levels
+            <span className="About-li-start">T</span> imeless truths
+            <ul className="About-sub-ul">
+              <li className="About-sub-li">
+                There are moral absolutes, right & wrong
+              </li>
+              <li className="About-sub-li">
+                Our government derives its authority from the consent of the
+                governed
+              </li>
+            </ul>
           </li>
         </ul>
       </div>

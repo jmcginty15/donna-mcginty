@@ -13,7 +13,12 @@ import kansas from "../assets/kansas-main.jpeg";
 
 // import { useOptionalUser } from "~/utils";
 
-export const meta: MetaFunction = () => [{ title: "Remix Notes" }];
+export const meta: MetaFunction = () => [
+  {
+    title: "Donna J. McGinty for Kansas District 57",
+    description: "Faith, family, freedom.",
+  },
+];
 
 export default function Index() {
   const aboutRef = useRef<HTMLDivElement>(null);

@@ -75,9 +75,7 @@ export default function About() {
           <li className="About-li">
             <span className="About-li-start">T</span> imeless truths
             <ul className="About-sub-ul">
-              <li className="About-sub-li">
-                There are moral absolutes, right & wrong
-              </li>
+              <li className="About-sub-li">There are moral absolutes</li>
               <li className="About-sub-li">
                 Our government derives its authority from the consent of the
                 governed

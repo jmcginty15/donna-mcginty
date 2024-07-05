@@ -6,6 +6,7 @@ import Contact from "~/components/contact";
 import Donate from "~/components/donate";
 import Footer from "~/components/footer";
 import Landing from "~/components/landing";
+import Map from "~/components/map";
 import Navbar from "~/components/navbar";
 
 import kansas from "../assets/kansas-main.jpeg";
@@ -56,6 +57,7 @@ export default function Index() {
       <div ref={donateRef}>
         <Donate />
       </div>
+      <Map />
       <Footer />
     </main>
   );

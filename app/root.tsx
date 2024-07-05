@@ -18,6 +18,7 @@ import stylesContact from "./components/contact.css";
 import stylesDonate from "./components/donate.css";
 import stylesFooter from "./components/footer.css";
 import stylesLanding from "./components/landing.css";
+import stylesMap from "./components/map.css";
 import stylesNavbar from "./components/navbar.css";
 import stylesRoot from "./root.css";
 
@@ -45,6 +46,7 @@ export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesAbout },
   { rel: "stylesheet", href: stylesContact },
   { rel: "stylesheet", href: stylesDonate },
+  { rel: "stylesheet", href: stylesMap },
   { rel: "stylesheet", href: stylesFooter },
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];

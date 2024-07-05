@@ -16,6 +16,10 @@ export default function Landing() {
           <h1 className="Landing-content-title-2">
             for Kansas House of Representatives District 57
           </h1>
+          <div
+            className="Landing-photo-narrow"
+            style={{ backgroundImage: `url(${donnaNoBg})` }}
+          />
           <div className="Landing-photo-container">
             <div
               className="Landing-content-photo"

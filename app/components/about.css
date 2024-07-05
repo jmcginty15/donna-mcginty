@@ -61,3 +61,27 @@
   list-style-type: disc;
   font-size: 18px;
 }
+
+@media (min-height: 100vw) {
+  .About {
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .About-title {
+    font-size: 24px;
+  }
+
+  .About-ul {
+    font-size: 14px;
+  }
+
+  .About-li-start {
+    font-size: 20px;
+  }
+
+  .About-sub-ul {
+    font-size: 12px;
+  }
+}

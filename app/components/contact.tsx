@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
     <div className="Contact">
+      <div className="Contact-content">
+        <h1 className="Contact-title">Contact</h1>
+      </div>
       <div className="Contact-content-main">
         <div className="Contact-address">
           <h6 className="Contact-subtitle">Phone</h6>
@@ -14,7 +17,7 @@ export default function Contact() {
           <h6 className="Contact-subtitle">Email</h6>
           <p>
             <a
-              className="Contact-link"
+              className="Contact-link Contact-email"
               href="mailto:mcgintyforkansas57th@gmail.com"
             >
               mcgintyforkansas57th@gmail.com
@@ -31,9 +34,6 @@ export default function Contact() {
           <p>PO Box 750231</p>
           <p>Topeka, KS 66675</p>
         </div>
-      </div>
-      <div className="Contact-content">
-        <h1 className="Contact-title">Contact</h1>
       </div>
     </div>
   );

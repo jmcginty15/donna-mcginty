@@ -43,3 +43,33 @@
   transition: 0.5s;
   color: var(--secondary-color);
 }
+
+@media (min-height: 100vw) {
+  .Contact {
+    grid-template-columns: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-height: 100vw) {
+  .Contact-email {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Contact-content-main {
+    grid-template-columns: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 300px) {
+  .Contact-email {
+    font-size: 10px;
+  }
+}

@@ -29,6 +29,10 @@
   background-position-y: bottom;
 }
 
+.Landing-photo-narrow {
+  display: none;
+}
+
 .Landing-content {
   display: flex;
   flex-direction: column;
@@ -48,6 +52,7 @@
   font-weight: bold;
   letter-spacing: 0.25rem;
   flex: none;
+  width: 90%;
 }
 
 .Landing-content-title-1 {
@@ -76,7 +81,6 @@
 
 .Landing-content-subtitle {
   font-size: 36px;
-  /* margin-top: 1rem; */
   flex: none;
 }
 
@@ -98,4 +102,65 @@
   margin: auto;
   width: fit-content;
   flex: auto;
+}
+
+@media (min-height: 100vw) {
+  .Landing-overlay {
+    grid-template-columns: 100%;
+  }
+
+  .Landing-photo {
+    display: none;
+  }
+
+  .Landing-content-subtitle {
+    font-size: 16px;
+    flex: none;
+  }
+
+  .Landing-photo-container {
+    display: none;
+  }
+
+  .Landing-photo-narrow {
+    display: block;
+    position: relative;
+    top: 1rem;
+    width: 100%;
+    height: calc(100% + 1rem);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+}
+
+@media (max-width: 768px) {
+  .Landing-content-title-1 {
+    font-size: 72px;
+  }
+
+  .Landing-content-title-2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Landing-content-title-1 {
+    font-size: 44px;
+  }
+
+  .Landing-content-title-2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-height: 750px) {
+  .Landing-content-title-1 {
+    font-size: 60px;
+  }
+
+  .Landing-content-title-2 {
+    font-size: 24px;
+  }
 }

@@ -61,3 +61,12 @@
 .Donate-text.top {
   margin-bottom: 2rem;
 }
+
+@media (min-height: 100vw) {
+  .Donate {
+    grid-template-columns: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

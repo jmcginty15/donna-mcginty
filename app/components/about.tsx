@@ -1,7 +1,7 @@
 // import about from "../assets/about.jpeg";
 import photo1 from "~/assets/gallery/photo-1.jpeg";
 import photo2 from "~/assets/gallery/photo-2.jpeg";
-import photo3 from "~/assets/gallery/photo-3.jpeg";
+import photo3 from "~/assets/gallery/photo-6.jpg";
 import photo4 from "~/assets/gallery/photo-4.jpeg";
 import photo5 from "~/assets/gallery/photo-5.jpeg";
 
@@ -46,14 +46,13 @@ export default function About() {
         <ul className="About-ul">
           <li className="About-li">
             <span className="About-li-start">L</span> imited government and less
-            taxes for Kansans
+            taxes
           </li>
           <li className="About-li">
-            <span className="About-li-start">I</span> ndividual constitutional
-            liberties upheld
+            <span className="About-li-start">I</span> ndividual liberties upheld
           </li>
           <li className="About-li">
-            <span className="About-li-start">F</span> aith, family, and freedom
+            <span className="About-li-start">F</span> ree enterprise
           </li>
           <li className="About-li">
             <span className="About-li-start">E</span> xcellence in education at

@@ -28,9 +28,9 @@ export default function About() {
           now also have one daughter-in-law, and recently welcomed my first
           grandchild. After our sons were of school age, I returned to the
           classroom for twenty-three years. Additionally, she provides office
-          assistance for her husband's small business. In the spring of 2021, I
-          ran for the Board of Education seat in Seaman USD 345 in Topeka, where
-          I am now in my third year of service.
+          assistance for her husband&apos;s small business. In the spring of
+          2021, I ran for the Board of Education seat in Seaman USD 345 in
+          Topeka, where I am now in my third year of service.
         </p>
         <p className="About-p">
           In May 2024, I finished my career in the classroom after nineteen

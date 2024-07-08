@@ -15,8 +15,7 @@ export default function Donate() {
             >
               Donate here
             </a>{" "}
-            or make out a check to &quot;Donna J. McGinty for Kansas District
-            57&quot; and mail to the PO Box above.
+            or text &quot;MCG57&quot; to 53-555.
           </h6>
         </p>
         <p className="Donate-text">Donations must be $500 or less.</p>

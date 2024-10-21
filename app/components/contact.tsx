@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="Contact-address">
           <h6 className="Contact-subtitle">Phone</h6>
           <p>
-            <a className="Contact-link" href="tel:7852131247">
+            <a className="Contact-link" href="tel:7852212767">
               (785) 221-2767
             </a>
           </p>
